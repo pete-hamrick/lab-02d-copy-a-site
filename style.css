@@ -1,0 +1,30 @@
+.body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left,
+.middle,
+.right {
+    border-color: black;
+    border-width: thick;
+    border-style: solid;
+    margin: 4px;
+}
+
+.left {
+    flex-grow: 1;
+}
+
+.middle {
+    flex-grow: 3;
+}
+
+.right {
+    flex-grow: .75;
+    
+}
+
+.module {
+    grid-template-rows: auto;
+}
